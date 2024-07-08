@@ -19,6 +19,11 @@
     color: #181818;
 }
 
+.secondary-color{
+    background-color: #FFF8F3;
+}
+
+
 /* button */
 
 .btn-primary {
@@ -94,6 +99,12 @@ nav li a {
     height: 676px;
 }
 
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 
 /* section-styles */
 
@@ -101,4 +112,29 @@ nav li a {
     font-size: 18px;
     font-weight: 400;
     color: #757575;
+}
+
+/* section about styles */
+.section-about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+/* Items */
+
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+}
+.item-title{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
